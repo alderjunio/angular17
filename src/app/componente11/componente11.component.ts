@@ -87,5 +87,17 @@ export class Componente11Component {
 
     }
 
+    //funcao cancelar
+    cancelar(){
+
+      // limpeza dos inputs
+      this.formulario.reset();
+
+      //visibilidade dos botoes
+      this.btnCadastrar = true;
+
+
+    }
+
 
 }
