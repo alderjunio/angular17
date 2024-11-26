@@ -73,5 +73,19 @@ export class Componente11Component {
 
     }
 
+    // funcao remover
+    remover(){
+
+      //removendo uma pessoa do vetor
+      this.vetor.splice(this.indice, 1);
+
+      //limpeza dos inputs
+      this.formulario.reset()
+
+      // visibilidade dos botoes
+      this.btnCadastrar = true;
+
+    }
+
 
 }
